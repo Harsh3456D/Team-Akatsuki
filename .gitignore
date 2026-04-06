@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+main/venv/
+
+# Build outputs
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Large model files (download separately or use Git LFS)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
